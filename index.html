@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Homepage</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <link rel="icon" href="favicon-16x16.png" type="image/x-icon" sizes="16x16">
+    <link rel="stylesheet" href="css/libs.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </head>
+  <body class="home">
+    <header>
+      <div class="content">
+        <div class="logo"><img src="images/logo.png" alt="Logo"></div>
+        <div class="logo-text"><img src="images/logo-text.png" alt="Logo text"></div>
+        <div class="header__menu header__menu--desktop">
+          <div data-sub-menu class="header__menu__left">
+            <ul class="list-menu">
+              <li class="list-menu__item"><a href="" title="Đề Thi">Đề Thi</a></li>
+              <li class="list-menu__item"><a href="" title="Ngữ Pháp">Ngữ Pháp</a></li>
+              <li class="list-menu__item"><a href="" title="Từ Vựng">Từ Vựng</a></li>
+            </ul>
+          </div>
+          <div class="header__menu__right">
+            <ul class="list-menu">
+              <li class="list-menu__item"><a href="JavaScript:;" title="Đăng nhập" data-form data-type-form="data-form-login">ĐĂNG NHẬP</a></li>
+              <li class="list-menu__item"><a href="JavaScript:;" title="Đăng ký" data-form data-type-form="data-form-register">ĐĂNG KÝ</a></li>
+            </ul>
+            <button type="button" data-btn-submenu class="btn-menu"> <img src="images/icon-solap.png" alt="menu" data-submenu-close><img src="images/icon-menu.png" alt="menu" data-submenu-open></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="banner"><img src="images/banner.png" alt="banner" class="banner__image banner__image--destop"><img src="images/banner-mobile.png" alt="banner" class="banner__image banner__image--mobile">
+        <div data-form-register class="banner__login form-register">
+          <p>Đăng ký</p><span class="notice">Tạo tài khoản trong 10 giây để bắt đầu học thử miễn phí.</span>
+          <div class="banner__login__form">
+            <form action="" method="POST">
+              <div class="banner__login__form__field banner__login__form__field--user">
+                <div class="form-field">
+                  <input type="text" name="username" placeholder="Tên" class="form-control-input">
+                </div>
+              </div>
+              <div class="banner__login__form__field banner__login__form__field--email">
+                <div class="form-field">
+                  <input type="email" name="email" placeholder="Email" class="form-control-input">
+                </div>
+              </div>
+              <div class="banner__login__form__field banner__login__form__field--password">
+                <div class="form-field">
+                  <input type="password" name="password" placeholder="Mật khẩu" class="form-control-input">
+                </div>
+              </div>
+              <button type="submit" class="button-register banner__login__form__submit">TẠO TÀI KHOẢN HỌC THỬ</button>
+            </form>
+          </div>
+          <button type="button" class="button-register banner__login__fb icon-Ic_fb">ĐĂNG KÝ BẰNG FACEBOOK</button>
+        </div>
+        <div data-form-login class="banner__login form-login">
+          <p>Đăng nhập<img src="images/icon-user.png" alt="icon" class="icon-user"></p>
+          <div class="banner__login__form">
+            <form action="" method="POST">
+              <div class="banner__login__form__field banner__login__form__field--user">
+                <div class="form-field">
+                  <input type="text" name="username" placeholder="Tên" class="form-control-input">
+                </div>
+              </div>
+              <div class="banner__login__form__field banner__login__form__field--password">
+                <div class="form-field">
+                  <input type="password" name="password" placeholder="Mật khẩu" class="form-control-input">
+                </div>
+              </div>
+              <button type="submit" class="button-register banner__login__form__submit">ĐĂNG NHẬP</button>
+            </form>
+          </div>
+          <div class="notice-pass"><span class="dont-fogot">Bạn quên mật khẩu?</span><a href="#" title="new password" class="new-pass">Tạo mật khẩu mới</a></div>
+          <figure><a href="" title="fb"><img src="images/icon-facebook.png" alt="fb"></a></figure>
+          <button type="button" class="button-register banner__login__fb icon-Ic_fb">ĐĂNG KÝ BẰNG FACEBOOK</button>
+        </div>
+        <div data-next-page data-target-page=".describe-user" class="button-next icon icon-bt_down"></div>
+      </div>
+      <div class="describe-user">
+        <div class="describe-user__title">
+          <p class="describe-user__title__p">Mô tả nào sau đây phù hợp với bạn?</p>
+          <div data-next-page data-target-page=".describe-user__block" class="button-next icon icon-bt_down"></div>
+        </div>
+        <div class="describe-user__block">
+          <div class="describe-user__block__type">
+            <ul class="type-describe">
+              <li data-content-method=".no-basic" data-describ=".type-basic--no" class="type-describe__item active">Mô tả 1</li>
+              <li data-content-method=".have-basic" data-describ=".type-basic--have" class="type-describe__item">Mô tả 2</li>
+            </ul>
+            <div class="type-basic type-basic--no active">
+              <div class="describe">
+                <p class="type-basic__title">Bạn mất nền tảng ngữ pháp và từ vựng?</p>
+                <ul class="type-basic__list">
+                  <li class="type-basic__list__item"><span>Bạn không biết bắt đầu từ đâu?</span></li>
+                  <li class="type-basic__list__item"><span>Bạn cảm thấy ngữ pháp còn mông lung?</span></li>
+                  <li class="type-basic__list__item"><span>Vốn từ vựng của bạn còn ít?</span></li>
+                  <li class="type-basic__list__item"><span>Bạn chưa biết phải làm bài thi như thế nào để đạt điểm mong muốn?</span></li>
+                </ul><a href="javascript:;" title="Giải pháp" data-content-method=".no-basic" data-describ=".type-basic--no" class="type-basic__button btn-link">Xem giải pháp dành cho bạn dưới đây</a>
+              </div>
+            </div>
+            <div class="type-basic type-basic--have">
+              <div class="describe">
+                <p class="type-basic__title">Bạn có nền tảng ngữ pháp và từ vựng nhưng</p>
+                <ul class="type-basic__list">
+                  <li class="type-basic__list__item"><span>Bạn chưa tự tin lắm với nền tảng ngữ pháp?</span></li>
+                  <li class="type-basic__list__item"><span>Bạn muốn mở rộng vốn từ vựng TOEIC?</span></li>
+                  <li class="type-basic__list__item"><span>Bạn muốn có bài tập và đề thi có giải thích rõ ràng để tự luyện thi?</span></li>
+                  <li class="type-basic__list__item"><span>Bạn muốn theo dõi sự tiến bộ cử việc tự luyện thi?</span></li>
+                </ul><a href="javascript:;" title="Giải pháp" data-content-method=".have-basic" data-describ=".type-basic--have" class="type-basic__button btn-link">Xem giải pháp dành cho bạn</a>
+              </div>
+            </div>
+          </div>
+          <div class="describe-user__block__method no-basic">
+            <div class="method-block">
+              <div class="method-block__top">
+                <div class="method-block__item method-block__item--left">
+                  <div class="group-title">
+                    <figure><img src="images/tinhnang_lotrinh_white.png" title="icon"></figure>
+                    <p class="title">Lộ trình học và<br>luyện thi rõ ràng</p>
+                  </div>
+                  <p class="description">Bạn không phải lo lắng về việc không biết bắt đầu học từ đâu, vì Gia sư TOEIC sẽ thiết lập một lộ trình học và luyện thi tối ưu dành riêng cho bạn.</p><a href="javascript:;" title="Xem chi tiết" data-toggle="modal" data-target="#myModal3" class="btn-link"><span class="icon icon-bt_next"></span><span class="icon icon-bt_next"></span><span>Xem chi tiết</span></a>
+                </div>
+                <div class="method-block__item method-block__item--right">
+                  <div class="group-title">
+                    <figure><img src="images/lay_lai_can_ban.png" title="icon"></figure>
+                    <p class="title">Lấy lại ngữ pháp<br>căn bản</p>
+                  </div>
+                  <p class="description">Chương trình học ngữ pháp của Gia sư TOEIC với giải thích chi tiết và bài tập ứng dụng sẽ giúp bạn nhanh chóng lấy lại căn bản ngữ pháp tiếng Anh.</p><a href="javascript:;" title="Xem chi tiết" data-toggle="modal" data-target="#myModal4" class="btn-link"><span class="icon icon-bt_next"></span><span class="icon icon-bt_next"></span><span>Xem chi tiết</span></a>
+                </div>
+              </div>
+              <div class="method-block__bottom">
+                <div class="method-block__item method-block__item--left">
+                  <div class="group-title">
+                    <figure><img src="images/icon-pen-2.png" title="icon"></figure>
+                    <p class="title">Học nhuần nhuyễn<br>từ vựng TOEIC thông dụng</p>
+                  </div>
+                  <p class="description">Với với bộ 600 từ vựng TOEIC và các đề luyện tập được dịch và giải thích kĩ càng, bạn sẽ nắm chắc trong tay những từ vựng thường xuyên xuất hiện nhất trong đề thi TOEIC.</p><a href="javascript:;" title="Xem chi tiết" data-toggle="modal" data-target="#myModal2" class="btn-link"><span class="icon icon-bt_next"></span><span class="icon icon-bt_next"></span><span>Xem chi tiết</span></a>
+                </div>
+                <div class="method-block__item method-block__item--right">
+                  <div class="group-title">
+                    <figure><img src="images/meo_lam_bai.png" title="icon"></figure>
+                    <p class="title">Mẹo làm 7 phần<br>của để thi TOEIC</p>
+                  </div>
+                  <p class="description">Gia sư TOEIC đã đúc kết những kinh nghiệm khi làm bài thi TOEIC như các loại bẫy cần tránh, cách suy luận chọn đáp án, v.v. để hướng dẫn bạn làm bài vừa nhanh vừa chính xác.</p><a href="javascript:;" title="Xem chi tiết" data-toggle="modal" data-target="#myModal1" class="btn-link"><span class="icon icon-bt_next"></span><span class="icon icon-bt_next"></span><span>Xem chi tiết</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="describe-user__block__method have-basic">
+            <div class="method-block have-basic">
+              <div class="method-block__top">
+                <div class="method-block__item method-block__item--left">
+                  <div class="group-title">
+                    <figure><img src="images/icon-method.png" title="icon"></figure>
+                    <p class="title">Củng cố ngữ pháp<br>một cách hệ thống</p>
+                  </div>
+                  <p class="description">Chương trình học ngữ pháp với bài học và bài tập ứng dựng sẽ giúp bạn nắm vững tất cả 17 điểm ngữ pháp quan trọng nhất trong đề thi TOEIC, từ cơ bản đến nâng cao.</p><a href="javascript:;" title="Xem chi tiết" data-toggle="modal" data-target="#myModal7" class="btn-link"><span class="icon icon-bt_next"></span><span class="icon icon-bt_next"></span><span>Xem chi tiết</span></a>
+                </div>
+                <div class="method-block__item method-block__item--right">
+                  <div class="group-title">
+                    <figure><img src="images/icon-method1.png" title="icon"></figure>
+                    <p class="title">Nắm vững từ vựng<br>TOEIC thiết yếu</p>
+                  </div>
+                  <p class="description">Bộ 600 từ vựng TOEIC sẽ giúp bạn ghi nhớ những từ vựng quan trọng nhất trong đề thi TOEIC để bạn hoàn toàn tự tin khi đi thi.</p><a href="javascript:;" title="Xem chi tiết" data-toggle="modal" data-target="#myModal6" class="btn-link"><span class="icon icon-bt_next"></span><span class="icon icon-bt_next"></span><span>Xem chi tiết</span></a>
+                </div>
+              </div>
+              <div class="method-block__bottom">
+                <div class="method-block__item method-block__item--left">
+                  <div class="group-title">
+                    <figure><img src="images/tinhnang_deluyentap_white.png" title="icon"></figure>
+                    <p class="title">Đề luyện tập và đề thi<br>có giải thích cụ thể</p>
+                  </div>
+                  <p class="description">Mang đến cho bạn một thư viện đề luyện tập khổng lồ được dịch và giải thích chi tiết từng câu một, giúp bạn tự luyện một cách dễ dàng. Chỉ có ở Gia sư TOEIC!</p><a href="javascript:;" title="Xem chi tiết" data-toggle="modal" data-target="#myModal5" class="btn-link"><span class="icon icon-bt_next"></span><span class="icon icon-bt_next"></span><span>Xem chi tiết</span></a>
+                </div>
+                <div class="method-block__item method-block__item--right">
+                  <div class="group-title">
+                    <figure><img src="images/tinhnang_lotrinh_white.png" title="icon"></figure>
+                    <p class="title">Lộ trình học và luyện thi<br>thông minh</p>
+                  </div>
+                  <p class="description">Những thông số quan trọng như độ chính xác khi làm bài và các cột mốc điểm sẽ giúp bạn theo dõi sự tiến bộ của mình và biết rằng mình đã tăng bao nhiêu điểm khi luyện thi.</p><a href="javascript:;" title="Xem chi tiết" data-toggle="modal" data-target="#myModal8" class="btn-link"><span class="icon icon-bt_next"></span><span class="icon icon-bt_next"></span><span>Xem chi tiết</span></a>
+                </div>
+              </div>
+            </div><a href="javascript:;" title="Học thử miễn phí" data-create-button=".create-accout" class="btn-link btn-learn">TẠO TÀI KHOẢN HỌC THỬ</a>
+          </div>
+        </div>
+      </div>
+      <div data-next-page data-target-page=".other_benefits" class="button-next icon icon-bt_down"></div>
+      <div id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" class="modal fade">
+        <div role="document" class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+              <div class="modal-header__block">
+                <figure><img src="images/icon-pen-8.png" title="icon"></figure>
+                <h4 class="title">Lấy lại ngữ pháp căn bản</h4>
+              </div>
+              <p class="notice-pop">
+                <figure><img src="images/icon-pen-6.png" title="icon"></figure><span class="description">17 chủ điểm ngữ pháp: Lấy lại ngữ pháp căn bản bằng 3 bước:</span>
+              </p>
+            </div>
+            <div class="modal-body">
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Học những bài học ngữ pháp được trình bày súc tích và dễ hiểu</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/1_matnentang_nguphap_17chudiem_hoc.png" alt="hinh"></figure>
+                </div>
+              </div>
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Trắc nghiệm kiểm tra kiến thức vừa học</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/2_matnentang_nguphap_17chudiem_tracnghiem.png" alt="hinh"></figure>
+                </div>
+              </div>
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Luyện tập với bài tập được giải thích cặn kẽ</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/3_matnentang_nguphap_17chudiem_baitap.png" alt="hinh"></figure>
+                </div>
+              </div>
+            </div>
+            <div class="block-item">
+              <div class="items-big">
+                <figure><img src="images/icon-pen-7.png" title="icon"></figure>
+                <p class="description">Học ngữ pháp thông qua đề luyện tập có dịch và giải thích rõ ràng</p>
+              </div>
+              <figure class="figure-content"><img src="images/4_matnentang_nguphap_deluyentap.png" alt="hinh anh"></figure>
+            </div>
+            <div class="modal-footer">
+              <h4 class="title">Tạo tài khoản học thử để bắt đầu học ngữ pháp</h4>
+              <button type="button" data-regist-popup=".create-accout" class="button-register banner__login__form__submit">TẠO TÀI KHOẢN HỌC THỬ</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" class="modal fade">
+        <div role="document" class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+              <div class="modal-header__block">
+                <figure><img src="images/tinhnang_lotrinh_blue.png" alt="icon"></figure>
+                <h4 class="title">Lộ trình học và luyện thi rõ ràng</h4>
+              </div>
+              <p class="notice-pop">
+                <figure><img src="images/icon-pen-6.png" alt="icon"></figure><span class="description">Bạn sẽ được Gia sư TOEIC thiết lập một lộ trình học và luyện thi TOEIC tối ưu dành riêng cho bạn chỉ với 2 bước đơn giản:</span>
+              </p>
+              <figure class="block-step desktop"><img src="images/img-step.png" alt="icon"></figure>
+              <figure class="block-step mobile"><img src="images/img-step1.png" alt="icon"></figure>
+              <div class="block-item">
+                <div class="items-big">
+                  <figure><img src="images/icon-pen-7.png" title="icon"></figure>
+                  <p class="description">Lộ trình từ điểm khởi đầu đến điểm đích đến sẽ được tạo ra cho bạn:</p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-body">
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Lộ trình gồm nhiều cột mốc, mỗi cột mốc 50 điểm</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/1_matnentang_lotrinh_cotmoc.png" alt="hinh"><span class="desc-img">Lộ trình từ 250 điểm đến 400 điểm, bao gồm 3 cột mốc 300, 350, 400</span></figure>
+                </div>
+              </div>
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Bạn chỉ cần học theo gợi ý của hệ thống để vượt qua cột mốc, và khi vượt qua cột mốc, bạn đã tăng được 50 điểm TOEIC!</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/2_matnentang_lotrinh_phancanluyen.png" alt="hinh"><span class="desc-img">Hệ thống đang khuyến khích luyện 3 phần: Listening Part 1, Listening Part 2 và Reading Part 5: Từ loại.Bạn cần đạt được độ chính xác khi làm bài ở Listening Part 1 là 45%, Listening Part 2 là 45% và Reading Part 5: Từ loại là 45% để có thể tăng 50 điểm.</span><span class="desc-img">Độ chính xác 45% nghĩa là khi làm 10 câu bạn làm đúng khoảng 5 câu.</span></figure>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <h4 class="title">Tạo tài khoản học thử để bắt đầu luyện thi</h4>
+              <button type="button" data-regist-popup=".create-accout" class="button-register banner__login__form__submit">TẠO TÀI KHOẢN HỌC THỬ</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" class="modal fade">
+        <div role="document" class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+              <div class="modal-header__block">
+                <figure><img src="images/tinhnang_lotrinh_blue.png" alt="icon"></figure>
+                <h4 class="title">Lộ trình học và luyện thi</h4>
+              </div>
+              <p class="notice-pop">
+                <figure><img src="images/icon-pen-6.png" alt="icon"></figure><span class="description">Bạn sẽ được Gia sư TOEIC thiết lập một lộ trình học và luyện thi TOEIC tối ưu dành riêng cho bạn chỉ với 2 bước đơn giản:</span>
+              </p>
+              <figure class="block-step desktop"><img src="images/img-step.png" alt="icon"></figure>
+              <figure class="block-step mobile"><img src="images/img-step1.png" alt="icon"></figure>
+              <div class="block-item">
+                <div class="items-big">
+                  <figure><img src="images/icon-pen-7.png" title="icon"></figure>
+                  <p class="description">Lộ trình từ điểm khởi đầu đến điểm đích đến sẽ được tạo ra cho bạn:</p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-body">
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Lộ trình gồm nhiều cột mốc, mỗi cột mốc 50 điểm</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/1_matnentang_lotrinh_cotmoc.png" alt="hinh"><span class="desc-img">Lộ trình từ 250 điểm đến 400 điểm, bao gồm 3 cột mốc 300, 350, 400</span></figure>
+                </div>
+              </div>
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Bạn chỉ cần học theo gợi ý của hệ thống để vượt qua cột mốc, và khi vượt qua cột mốc, bạn đã tăng được 50 điểm TOEIC!</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/2_matnentang_lotrinh_phancanluyen.png" alt="hinh"><span class="desc-img">Hệ thống đang khuyến khích luyện 3 phần: Listening Part 1, Listening Part 2 và Reading Part 5: Từ loại.Bạn cần đạt được độ chính xác khi làm bài ở Listening Part 1 là 45%, Listening Part 2 là 45% và Reading Part 5: Từ loại là 45% để có thể tăng 50 điểm.</span><span class="desc-img">Độ chính xác 45% nghĩa là khi làm 10 câu bạn làm đúng khoảng 5 câu.</span></figure>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <h4 class="title">Tạo tài khoản học thử để bắt đầu luyện thi</h4>
+              <button type="button" data-regist-popup=".create-accout" class="button-register banner__login__form__submit">TẠO TÀI KHOẢN HỌC THỬ</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" class="modal fade">
+        <div role="document" class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+              <div class="modal-header__block">
+                <figure><img src="images/icon-pen-5.png" title="icon"></figure>
+                <h4 class="title">Học nhuần nhuyễn từ vựng TOEIC thông dụng</h4>
+              </div>
+              <p class="notice-pop">
+                <figure><img src="images/icon-pen-6.png" title="icon"></figure><span class="description">Bộ 600 từ vựng TOEIC: Tập trung học từ vựng cần thiết cho TOEIC qua 2 bước:</span>
+              </p>
+            </div>
+            <div class="modal-body">
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Học 600 từ vựng thuộc 17 chủ đề</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/matnentang_tuvung_600tu_hoc.png" alt="Học 600 từ vựng thuộc 17 chủ đề"></figure>
+                </div>
+              </div>
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Làm bài tập ôn tập cuối mỗi chủ đề</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/matnentang_tuvung_600tu_kiemtra.png" alt="Cách Làm bài tập ôn tập cuối mỗi chủ đề"></figure>
+                </div>
+              </div>
+            </div>
+            <div class="block-item">
+              <div class="items-big">
+                <figure><img src="images/icon-pen-7.png" title="icon"></figure>
+                <p class="description">Học được từ vựng mới thông qua đề luyện tập có dịch và giải thích rõ ràng</p>
+              </div>
+              <figure class="figure-content"><img src="images/matnentang_tuvung_deluyentap.png" alt="hinh anh"></figure>
+            </div>
+            <div class="modal-footer">
+              <h4 class="title">Tạo tài khoản học thử để bắt đầu học từ vựng TOEIC</h4>
+              <button type="button" data-regist-popup=".create-accout" class="button-register banner__login__form__submit">TẠO TÀI KHOẢN HỌC THỬ</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" class="modal fade">
+        <div role="document" class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+              <div class="modal-header__block">
+                <figure><img src="images/icon-pen-4.png" title="icon"></figure>
+                <h4 class="title">Mẹo làm 7 phần của để thi TOEIC</h4>
+              </div>
+              <p class="description">Làm bài thi nhanh mà đúng với<span class="description__topic"> Mẹo làm bài cho tất cả 7 phần của bài thi TOEIC</span><span> qua 2 bước:</span></p>
+            </div>
+            <div class="modal-body">
+              <p class="body-title">Tìm hiểu về các mẹo:</p>
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Các loại bẫy thường xuyên xuất hiện</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/1_matnentang_meo_timhieu_bay.png" alt="Các loại bẫy thường xuyên xuất hiện"></figure>
+                </div>
+              </div>
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Cách suy luận để chọn đáp án đúng</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/2_matnentang_meo_timhieu_suyluan.png" alt="Cách suy luận để chọn đáp án đúng"></figure>
+                </div>
+              </div>
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Cách tiết kiệm thời gian làm bài</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/3_matnentang_meo_timhieu_tietkiemthoigian.png" alt="Cách tiết kiệm thời gian làm bài"></figure>
+                </div>
+              </div>
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Và một số mẹo khác</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/4_matnentang_meo_timhieu_meokhac.png" alt="Và một số mẹo khác"></figure>
+                </div>
+              </div>
+              <div class="items-footer">
+                <div class="col-md-4">
+                  <p class="item-title">Làm bài tập ứng dụng ngay các mẹo</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/5_matnentang_meo_baitap.png" alt="Làm bài tập ứng dụng ngay các mẹo"></figure>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <h4 class="title">Tạo tài khoản học thử để tìm hiểu về mẹo làm bài</h4>
+              <button type="button" data-regist-popup=".create-accout" class="button-register banner__login__form__submit">TẠO TÀI KHOẢN HỌC THỬ</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" class="modal fade">
+        <div role="document" class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+              <div class="modal-header__block">
+                <figure><img src="images/tinhnang_deluyentap_blue.png" title="icon"></figure>
+                <h4 class="title">Đề luyện tập và đề thi có giải thích cụ thể từng câu</h4>
+              </div>
+              <p class="description">Với 5000 câu luyện tập cho tất cả 7 phần trong đề thi TOEIC cùng với 15 đề thi, Gia sư TOEIC mang đến cho bạn<span class="description__topic">  ngân hàng đề được giải thích chi tiết và tuyệt đối chính xác lớn hơn nhiều lần bất kỳ nơi đâu:</span></p>
+            </div>
+            <div class="modal-body">
+              <p class="desc">• Tất cả các câu hỏi và đáp án đều được dịch</p>
+              <p class="desc">• Tất cả các câu đều được giải thích cụ thể lí do chọn đáp án</p>
+              <figure><img src="images/conentang_deluyentap_cogiaithich.png" alt="hinh anh"><span class="desc1">Giải thích cho đáp án của một câu hỏi ở phần 7, với câu minh họa cho ý của đáp án được tô đậm</span></figure>
+            </div>
+            <div class="modal-footer">
+              <h4 class="title">Tạo tài khoản học thử để bắt đầu làm đề luyện tập</h4>
+              <button type="button" data-regist-popup=".create-accout" class="button-register banner__login__form__submit">TẠO TÀI KHOẢN HỌC THỬ</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" class="modal fade">
+        <div role="document" class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+              <div class="modal-header__block">
+                <figure><img src="images/icon-pen-11.png" title="icon"></figure>
+                <h4 class="title">Nắm vững từ vựng TOEIC thiết yếu</h4>
+              </div>
+              <p class="notice-pop">
+                <figure><img src="images/icon-pen-6.png" title="icon"></figure><span class="description">Bộ 600 từ vựng TOEIC: Giúp bạn tập trung mở rộng vốn từ vựng TOEIC của mình qua 2 bước:</span>
+              </p>
+            </div>
+            <div class="modal-body">
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Học được những thông tin quan trọng nhất của một từ</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/matnentang_tuvung_600tu_hoc.png" alt="Học 600 từ vựng thuộc 17 chủ đề"></figure>
+                </div>
+              </div>
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Làm bài tập ôn tập để kiểm tra kiến thức</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/matnentang_tuvung_600tu_kiemtra.png" alt="Cách Làm bài tập ôn tập cuối mỗi chủ đề"></figure>
+                </div>
+              </div>
+            </div>
+            <div class="block-item">
+              <div class="items-big">
+                <figure><img src="images/icon-pen-7.png" title="icon"></figure>
+                <p class="description">Học được từ vựng mới thông qua đề luyện tập có dịch và giải thích rõ ràng</p>
+              </div>
+              <figure class="figure-content"><img src="images/matnentang_tuvung_deluyentap.png" alt="hinh anh"></figure>
+            </div>
+            <div class="modal-footer">
+              <h4 class="title">Tạo tài khoản học thử để bắt đầu học từ vựng TOEIC</h4>
+              <button type="button" data-regist-popup=".create-accout" class="button-register banner__login__form__submit">TẠO TÀI KHOẢN HỌC THỬ</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" class="modal fade">
+        <div role="document" class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+              <div class="modal-header__block">
+                <figure><img src="images/icon-pen-12.png" title="icon"></figure>
+                <h4 class="title">Củng cố ngữ pháp một cách hệ thống</h4>
+              </div>
+              <p class="notice-pop">
+                <figure><img src="images/icon-pen-6.png" title="icon"></figure><span class="description">17 chủ điểm ngữ pháp: củng cố ngữ pháp tiếng Anh với 3 bước:</span>
+              </p>
+            </div>
+            <div class="modal-body">
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Học những điểm ngữ pháp được trình bày có hệ thống</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/1_matnentang_nguphap_17chudiem_hoc.png" alt="hinh"></figure>
+                </div>
+              </div>
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Kiểm tra kiến thức vừa học bằng câu hỏi trắc nghiệm</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/2_matnentang_nguphap_17chudiem_tracnghiem.png" alt="hinh"></figure>
+                </div>
+              </div>
+              <div class="items">
+                <div class="col-md-4">
+                  <p class="item-title">Luyện tập với những bài tập được giải thích cặn kẽ</p>
+                </div>
+                <div class="col-md-8">
+                  <figure><img src="images/3_matnentang_nguphap_17chudiem_baitap.png" alt="hinh"></figure>
+                </div>
+              </div>
+            </div>
+            <div class="block-item">
+              <div class="items-big">
+                <figure><img src="images/icon-pen-7.png" title="icon"></figure>
+                <p class="description">Học ngữ pháp thông qua đề luyện tập có dịch và giải thích rõ ràng</p>
+              </div>
+              <figure class="figure-content"><img src="images/4_matnentang_nguphap_deluyentap.png" alt="hinh anh"></figure>
+            </div>
+            <div class="modal-footer">
+              <h4 class="title">Tạo tài khoản học thử để bắt đầu học ngữ pháp</h4>
+              <button type="button" data-regist-popup=".create-accout" class="button-register banner__login__form__submit">TẠO TÀI KHOẢN HỌC THỬ</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="other_benefits">
+        <div class="content">
+          <p class="title">Những lợi ích khác<br>khi luyện thi với Gia sư TOEIC</p>
+          <div class="content__block">
+            <div class="content__block__item">
+              <figure><img src="images/icon_luyen_thi.png" alt="icon"></figure>
+              <div class="desc-block">
+                <h4 class="desc-block__title">Luyện thi TOEIC mọi lúc mọi nơi</h4>
+                <p class="desc-block__description">Với phiên bản trang Web dành cho di động, bạn có thể luyện thi TOEIC với gia sư TOEIC bất kì lúc nào, bất kì nơi đâu.</p>
+                <p class="desc-block__description">Bạn có thể thoải mái học theo nhịp độ học riêng của mình!</p>
+              </div>
+            </div>
+            <canvas class="mycanvas other_benefits__block-test__border-solid"></canvas>
+            <div class="content__block__item sec-item">
+              <figure><img src="images/icon_chinh_sach.png" alt="icon"></figure>
+              <div class="desc-block">
+                <h4 class="desc-block__title">Chính sách cộng thêm ngày<br>sử dụng và bảo lưu tài khoản</h4>
+                <p class="desc-block__description">Gia sư TOEIC có chính sách cộng thêm số ngày không học hoặc bảo lưu tài khoản khi bạn bận một thời gian dài, để đảm bạn không bị mất ngày học uổng phí.</p><a href="#" title="Xem chi tiết" class="btn-link"><span class="icon icon-bt_next"></span><span class="icon icon-bt_next"></span><span>Xem chi tiết</span></a>
+              </div>
+            </div>
+            <canvas class="mycanvas_p other_benefits__block-policy__border-solid--policy"></canvas>
+            <div class="content__block__item">
+              <figure><img src="images/icon_hoc_luyen_thi.png" alt="icon"></figure>
+              <div class="desc-block">
+                <h4 class="desc-block__title">Học và luyện thi TOEIC<br> với sự tư vấn và hỗ trợ tối đa</h4>
+                <p class="desc-block__description"> <span>Học ở Gia sư TOEIC, bạn không phải tự luyện, mà bạn đang luyện với sự hỗ trợ của hệ thống thông minh và đội ngũ hỗ trợ nhiệt tình của Gia sư TOEIC!</span><span>Bạn sẽ nhanh chóng được giải đáp mọi thắc mắc và được giúp đỡ vượt qua những khó khăn gặp phải trong quá trình luyện thi.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-next-page data-target-page=".regist" class="button-next icon icon-bt_down">
+      </div>
+      <div class="regist">
+        <div class="regist__block">
+          <p class="regist__title">Hai bước để bắt đầu học tại Gia sư TOEIC</p>
+          <div class="regist__step"><span class="regist__step__label">Bước 1:</span><span class="regist__step__title">Tạo tài khoản để bắt đầu học thử miễn phí.</span>
+            <button type="button" data-create-button=".create-accout" class="button-register banner__login__form__submit">TẠO TÀI KHOẢN HỌC THỬ</button>
+          </div>
+          <div class="regist__step"><span class="regist__step__label">Bước 2:</span><span class="regist__step__title">Sau khi đã học thử, bạn có thể chọn một trong hai loại tài khoản dưới đây để tiếp tục học và luyện thi TOEIC.</span></div>
+        </div>
+      </div>
+      <div data-next-page data-target-page=".payment" class="button-next icon icon-bt_down"></div>
+      <div class="payment">
+        <div class="container">
+          <div data-service-block class="select-mobile"><a href="javascript:;" title="Tài khoản Tự luyện" data-type-service="sv1" class="active">Tài khoản Tự luyện</a><a href="javascript:;" title="Tài khoản Gia sư" data-type-service="sv2">Tài khoản Gia sư</a></div>
+          <div data-service="sv1" class="col-md-6 table">
+            <div class="liked-block">
+              <div class="liked">Được ưa chuộng nhất</div>
+            </div>
+            <table class="tab_left">
+              <tr>
+                <th colspan="2"> 
+                  <p class="accout">Tài khoản Tự luyện</p>
+                  <p class="note">(Có hơn <b>20000</b> người sử dụng tài khoản này)</p>
+                </th>
+              </tr>
+              <tr>
+                <td> 
+                  <p>Đề luyện tập</p>
+                  <p class="italic">(có giải thích chi tiết từng câu)</p>
+                </td>
+                <td> 
+                  <p>Tất cả</p>
+                </td>
+              </tr>
+              <tr>
+                <td> 
+                  <p>Đề thi</p>
+                  <p class="italic">(có giải thích chi tiết từng câu)</p>
+                </td>
+                <td> 
+                  <p>Tất cả</p>
+                </td>
+              </tr>
+              <tr>
+                <td> 
+                  <p>Ngữ pháp thiết yếu</p>
+                </td>
+                <td> 
+                  <p>17 chủ đề</p>
+                </td>
+              </tr>
+              <tr>
+                <td> 
+                  <p>Học 600 từ TOEIC</p>
+                </td>
+                <td> 
+                  <p>50 chủ đề</p>
+                </td>
+              </tr>
+              <tr>
+                <td> 
+                  <p>Chiến lược làm bài thi</p>
+                </td>
+                <td> 
+                  <div class="tick"><img src="images/tick.png"></div>
+                </td>
+              </tr>
+              <tr>
+                <td> 
+                  <p>Chính sách cộng thêm ngày sử dụng<br><span> và Bảo lưu tài khoản</span></p>
+                </td>
+                <td> 
+                  <div class="tick"><img src="images/tick.png"></div>
+                </td>
+              </tr>
+              <tr>
+                <td> 
+                  <p>Trao đổi với gia sư</p>
+                </td>
+                <td> 
+                  <div class="tick"><img src="images/error.png"></div>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <p class="price">Giá</p>
+                  <table>
+                    <tr>
+                      <td></td>
+                      <td class="note_month"> 
+                        <p class="month_1">129.000đ/ 1 tháng </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="note_save">
+                        <p>hoặc</p>
+                        <p class="save">(Tiết kiệm 15%)</p>
+                      </td>
+                      <td class="note_month">
+                        <p class="month_3">329.000đ/ 3 tháng </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="note_save">
+                        <p>hoặc</p>
+                        <p class="save">(Tiết kiệm 15%)</p>
+                      </td>
+                      <td class="note_month">
+                        <p class="month_6">529.000đ/ 6 tháng </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div data-service="sv2" class="col-md-6 table">
+            <table class="tab_right">
+              <tr>
+                <th colspan="2"> 
+                  <p class="accout">Tài khoản Gia sư</p>
+                  <p class="note">(Có hơn <b>20000</b> người sử dụng tài khoản này)</p>
+                </th>
+              </tr>
+              <tr>
+                <td> 
+                  <p>Đề luyện tập</p>
+                  <p class="italic">(có giải thích chi tiết từng câu)</p>
+                </td>
+                <td> 
+                  <p>Tất cả</p>
+                </td>
+              </tr>
+              <tr>
+                <td> 
+                  <p>Đề thi</p>
+                  <p class="italic">(có giải thích chi tiết từng câu)</p>
+                </td>
+                <td>Tất cả</td>
+              </tr>
+              <tr>
+                <td> 
+                  <p>Ngữ pháp thiết yếu</p>
+                </td>
+                <td> 
+                  <p>17 chủ đề</p>
+                </td>
+              </tr>
+              <tr>
+                <td> 
+                  <p>Học 600 từ TOEIC</p>
+                </td>
+                <td> 
+                  <p>50 chủ đề</p>
+                </td>
+              </tr>
+              <tr>
+                <td> 
+                  <p>Chiến lược làm bài thi</p>
+                </td>
+                <td> 
+                  <div class="tick"><img src="images/tick.png"></div>
+                </td>
+              </tr>
+              <tr>
+                <td> 
+                  <p>Chính sách cộng thêm ngày sử dụng<br><span> và Bảo lưu tài khoản</span></p>
+                </td>
+                <td> 
+                  <div class="tick"><img src="images/tick.png"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>Trao đổi với gia sư</p>
+                </td>
+                <td> 
+                  <div class="tick"><img src="images/tick.png"></div>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" style="height:206px;">
+                  <div style="float:left">Giá</div>
+                  <div style="float:right">329,000/1 tháng	</div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div><a href="#" title="THANH TOÁN" class="guide"><span>HƯỚNG DẪN THANH TOÁN</span></a>
+      </div>
+      <div data-next-page data-target-page=".create-accout" class="button-next icon icon-bt_down"></div>
+      <div class="create-accout">
+        <p class="title">Tạo tài khoản học thử</p>
+        <div class="banner__login">
+          <div class="banner__login__form">
+            <div class="banner__login__form__field banner__login__form__field--user">
+              <div class="form-field">
+                <input type="text" name="username" placeholder="Tên" class="form-control-input">
+              </div>
+            </div>
+            <div class="banner__login__form__field banner__login__form__field--email">
+              <div class="form-field">
+                <input type="email" name="email" placeholder="Email" class="form-control-input">
+              </div>
+            </div>
+            <div class="banner__login__form__field banner__login__form__field--password">
+              <div class="form-field">
+                <input type="password" name="password" placeholder="Mật khẩu" class="form-control-input">
+              </div>
+            </div>
+            <button type="submit" class="button-register banner__login__form__submit">TẠO TÀI KHOẢN HỌC THỬ</button>
+          </div>
+          <button type="button" class="button-register banner__login__fb icon-Ic_fb">ĐĂNG KÝ BẰNG FACEBOOK</button>
+        </div>
+      </div>
+      <div data-next-page data-target-page=".comment-user" class="button-next icon icon-bt_down"></div>
+      <div class="comment-user">
+        <h4 class="comment-user__title">Nhận xét của người học</h4>
+        <div class="type-comment">
+          <ul class="comment-user__type">
+            <li data-comment-type=".type-user-worker" class="comment-user__type__item active">Người đi làm</li>
+            <li data-comment-type=".type-user-student" class="comment-user__type__item">Sinh Viên</li>
+          </ul>
+        </div>
+        <div class="comment-user__content">
+          <div class="type-user type-user-student">
+            <ui class="comment-block">
+              <li class="comment-block__item">
+                <figure><img src="images/icon-user-comment-1.png" class="img-circle"><span class="commenter">Hồ Gia Bảo</span><span class="description">Sinh vien_Bình Dương</span></figure>
+                <quote><img src="images/icon-quote.png" class="icon-quote">
+                  <p class="comment">Mình ở vùng ngoại ô thành phố nên việc đi học TOEIC thật sự rất khó khăn. Từ khi biết đến Gia sư TOEIC, mình không cần phải đi xa nữa mà chỉ cần chăm chỉ học trên đây thôi. Điều mình thích nhất là việc chia bài luyện tâp theo cấp độ từ dễ đến khó, nên không gây ra tình trạng nản chí cho người học. Khi có vấn đề gì thắc mắc mình cứ email hỏi, các anh chị trả lời rất nhiệt tình và chi tiết.</p>
+                  <p class="comment--mobile"> Mình ở vùng ngoại ô thành phố nên việc đi học TOEIC thật sự rất khó khăn. Từ khi biết đến Gia sư TOEIC, mình không cần phải đi xa nữa mà chỉ cần chăm chỉ học trên đây thôi.<span class="continue">Điều mình thích nhất là việc chia bài luyện tâp theo cấp độ từ dễ đến khó, nên không gây ra tình trạng nản chí cho người học. Khi có vấn đề gì thắc mắc mình cứ email hỏi, các anh chị trả lời rất nhiệt tình và chi tiết.</span><span class="small-cm">..</span><span data-show-comment><span class="icon icon-bt_next"></span><span class="icon icon-bt_next"></span></span></p>
+                </quote>
+              </li>
+              <li class="comment-block__item comment-block__item--2">
+                <figure><img src="images/icon-user-comment-2.png" class="img-circle"><span class="commenter">Nguyễn Thị Thuỳ Lĩnh</span><span class="description">Sinh vien_TP.HCM</span></figure>
+                <quote><img src="images/icon-quote.png" class="icon-quote">
+                  <p class="comment">Mình đã thử học với trang Gia sư TOEIC được 2 tháng rồi, điểm đầu vào của mình là 280 và kỳ thi TOEIC vừa rồi mình được 620 điểm, vượt chỉ tiêu trường. Hiệu quả trang đem lại cho mình rất cao, đề luyện nhiều, mấy anh chị theo sát học viên nhắc nhở. Trang mình còn có giải thích đáp án nên rất tốt để cải thiện trong quá trình học.</p>
+                  <p class="comment--mobile">Mình đã thử học với trang Gia sư TOEIC được 2 tháng rồi, điểm đầu vào của mình là 280 và kỳ thi TOEIC vừa rồi mình được 620 điểm, vượt chỉ tiêu trường.<span class="continue"> Hiệu quả trang đem lại cho mình rất cao, đề luyện nhiều, mấy anh chị theo sát học viên nhắc nhở. Trang mình còn có giải thích đáp án nên rất tốt để cải thiện trong quá trình học.</span><span class="small-cm">..</span><span data-show-comment><span class="icon icon-bt_next"></span><span class="icon icon-bt_next"></span></span></p>
+                </quote>
+              </li>
+              <li class="comment-block__item">
+                <figure><img src="images/icon-user-comment-4.png" class="img-circle"><span class="commenter">Nguyễn Văn Quang</span><span class="description">Sinh vien_Hà Nội</span></figure>
+                <quote><img src="images/icon-quote.png" class="icon-quote">
+                  <p class="comment">Mình thấy rất hào hứng với giao diện và cách học mới này. Mình khá bận nên việc luyện tập các phần dựa trên lộ trình gợi ý của hệ thống giúp mình tiết kiệm được rất nhiều thời gian. Việc thực hành thường xuyên và linh hoạt về thời gian tạo cho mình một phản xạ tốt về cách làm bài thi TOEIC. Kết quả là mình đạt được 890 điểm. Cảm ơn Gia sư TOEIC nhiều!</p>
+                  <p class="comment--mobile">Mình thấy rất hào hứng với giao diện và cách học mới này.<span class="continue"> Mình khá bận nên việc luyện tập các phần dựa trên lộ trình gợi ý của hệ thống giúp mình tiết kiệm được rất nhiều thời gian. Việc thực hành thường xuyên và linh hoạt về thời gian tạo cho mình một phản xạ tốt về cách làm bài thi TOEIC. Kết quả là mình đạt được 890 điểm. Cảm ơn Gia sư TOEIC nhiều!</span><span class="small-cm">..</span><span data-show-comment><span class="icon icon-bt_next"></span><span class="icon icon-bt_next"></span></span></p>
+                </quote>
+              </li>
+              <li class="comment-block__item comment-block__item--2">
+                <figure><img src="images/icon-user-comment-2.png" class="img-circle"><span class="commenter">Lê Tử Toàn</span><span class="description">Sinh vien_TP.HCM</span></figure>
+                <quote><img src="images/icon-quote.png" class="icon-quote">
+                  <p class="comment">Khi tự học mình sợ nhất là biết đáp án mà không biết tại sao lại chọn đáp án đó, nhưng khi luyện với Gia sư TOEIC thì mỗi câu luyện tập đều được dịch nghĩa, giải thích chi tiết, rõ ràng cho từng đáp án. Mình cảm thấy Gia sư TOEIC thật sự là một kênh luyện TOEIC có hệ thống và chất lượng không khác nhiều so với các lớp tiếng Anh mình theo học trước đây!</p>
+                  <p class="comment--mobile">Khi tự học mình sợ nhất là biết đáp án mà không biết tại sao lại chọn đáp án đó, nhưng khi luyện với Gia sư TOEIC thì mỗi câu luyện tập đều được dịch nghĩa, giải thích chi tiết, rõ ràng cho từng đáp án.<span class="continue"> Mình cảm thấy Gia sư TOEIC thật sự là một kênh luyện TOEIC có hệ thống và chất lượng không khác nhiều so với các lớp tiếng Anh mình theo học trước đây!</span><span class="small-cm">..</span><span data-show-comment><span class="icon icon-bt_next"></span><span class="icon icon-bt_next"></span></span></p>
+                </quote>
+              </li>
+            </ui>
+          </div>
+          <div class="type-user type-user-worker active">
+            <ui class="comment-block">
+              <li class="comment-block__item">
+                <figure><img src="images/icon-user-comment-1.png" class="img-circle"><span class="commenter">Ngô Thị Diệu Liên</span><span class="description">GVCIII_TP.HCM</span></figure>
+                <quote><img src="images/icon-quote.png" class="icon-quote">
+                  <p class="comment">Trước khi học mình cũng hơi lo vì tính mình nhanh chán nên chỉ sợ học được vài bữa lại bỏ. Nhưng khi học rồi thì mình thấy thích lắm. Chương trình đặt ra nhiều đích từ gần đến xa, tạo cảm giác rõ ràng và giúp người học có động lực để phấn đấu. Mình cũng thích bảng xếp hạng tuần nữa, nhìn vào đó mình luôn cố gắng để được lọt vào top.</p>
+                  <p class="comment--mobile">Trước khi học mình cũng hơi lo vì tính mình nhanh chán nên chỉ sợ học được vài bữa lại bỏ. Nhưng khi học rồi thì mình thấy thích lắm.<span class="continue"> Chương trình đặt ra nhiều đích từ gần đến xa, tạo cảm giác rõ ràng và giúp người học có động lực để phấn đấu. Mình cũng thích bảng xếp hạng tuần nữa, nhìn vào đó mình luôn cố gắng để được lọt vào top.</span><span class="small-cm">..</span><span data-show-comment><span class="icon icon-bt_next"></span><span class="icon icon-bt_next"></span></span></p>
+                </quote>
+              </li>
+              <li class="comment-block__item comment-block__item--2">
+                <figure><img src="images/icon-user-comment-2.png" class="img-circle"><span class="commenter">Mai thế Đặng</span><span class="description">Kỹ sư_Hà Nội</span></figure>
+                <quote><img src="images/icon-quote.png" class="icon-quote">
+                  <p class="comment">Trước khi học mình cũng khá lo vì không biết nên học từ đâu, học như thế nào. Điều tôi thích nhất là trang web đưa ra cho tôi lộ trình học hợp lý, giải thích tỉ mỉ các phần và cho tôi biết được mình nên học nhiều ở phần nào. Chương trình rất có ích cho những người vừa học vừa làm nên tôi cũng giới thiệu cho bạn bè học tập. Xin cảm ơn!</p>
+                  <p class="comment--mobile">Trước khi học mình cũng khá lo vì không biết nên học từ đâu, học như thế nào. Điều tôi thích nhất là trang web đưa ra cho tôi lộ trình học hợp lý, giải thích tỉ mỉ các phần và cho tôi biết được mình nên học nhiều ở phần nào.<span class="continue"> Chương trình rất có ích cho những người vừa học vừa làm nên tôi cũng giới thiệu cho bạn bè học tập. Xin cảm ơn!</span><span class="small-cm">..</span><span data-show-comment><span class="icon icon-bt_next"></span><span class="icon icon-bt_next"></span></span></p>
+                </quote>
+              </li>
+              <li class="comment-block__item">
+                <figure><img src="images/icon-user-comment-4.png" class="img-circle"><span class="commenter">Nguyễn Thị Xuân</span><span class="description">NVKT_Hải Dương</span></figure>
+                <quote><img src="images/icon-quote.png" class="icon-quote">
+                  <p class="comment">Học trên web rất tiện và mỗi phần ôn luyện đều có tính thời gian, tạo cảm giác sát với khi thi thật nên người học quen dần, phản ứng nhanh. Chị là người đi làm và đã có gia đình nên cũng khá hạn chế về thời gian, nên chị rất vui vì đã có Gia sư TOEIC giúp chị trong việc học.</p>
+                  <p class="comment--mobile">Học trên web rất tiện và mỗi phần ôn luyện đều có tính thời gian, tạo cảm giác sát với khi thi thật nên người học quen dần, phản ứng nhanh.<span class="continue"> Chị là người đi làm và đã có gia đình nên cũng khá hạn chế về thời gian, nên chị rất vui vì đã có Gia sư TOEIC giúp chị trong việc học.</span><span class="small-cm">..</span><span data-show-comment><span class="icon icon-bt_next"></span><span class="icon icon-bt_next"></span></span></p>
+                </quote>
+              </li>
+              <li class="comment-block__item comment-block__item--2">
+                <figure><img src="images/icon-user-comment-2.png" class="img-circle"><span class="commenter">Vũ Phượng</span><span class="description">NV_TP.HCM</span></figure>
+                <quote><img src="images/icon-quote.png" class="icon-quote">
+                  <p class="comment">Mình gửi lời cảm ơn chân thành nhất đến Gia sư TOEIC nhé, mình rất vui với kết quả đạt được là 760 sau một tháng luyện trên trang. Mình cảm thấy chương trình học trên Gia sư TOEIC cực kì hay và hiệu quả luôn, ngoài ra mình luôn nhận được sự hỗ trợ vô cùng nhiệt tình và dễ thương từ các bạn ở đây. Mục tiêu tiếp theo của mình là 850 và mình nghĩ Gia sư TOEIC sẽ giúp mình đạt được điều đó.</p>
+                  <p class="comment--mobile">Mình gửi lời cảm ơn chân thành nhất đến Gia sư TOEIC nhé, mình rất vui với kết quả đạt được là 760 sau một tháng luyện trên trang.<span class="continue"> Mình cảm thấy chương trình học trên Gia sư TOEIC cực kì hay và hiệu quả luôn, ngoài ra mình luôn nhận được sự hỗ trợ vô cùng nhiệt tình và dễ thương từ các bạn ở đây. Mục tiêu tiếp theo của mình là 850 và mình nghĩ Gia sư TOEIC sẽ giúp mình đạt được điều đó.</span><span class="small-cm">..</span><span data-show-comment><span class="icon icon-bt_next"></span><span class="icon icon-bt_next"></span></span></p>
+                </quote>
+              </li>
+            </ui>
+          </div>
+        </div>
+        <button type="button" data-show-more=".type-user-student" class="show-more"><span class="icon icon-bt_down"></span><span class="icon icon-bt_down"></span></button>
+      </div>
+      <div data-next-page data-target-page="#topfooter" class="button-next icon icon-bt_down"></div>
+      <div id="topfooter">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-md-offset-1">
+              <div id="border">
+                <h1>Liên hệ với chúng tôi</h1>
+                <table>
+                  <tr> 
+                    <td> <span class="glyphicon glyphicon-earphone"></span></td>
+                    <td> <span class="glyphicon__text"> 0916 921 419</span></td>
+                  </tr>
+                  <tr> 
+                    <td> <span class="glyphicon glyphicon-envelope"></span></td>
+                    <td> <span class="glyphicon__text"> support@giasutoeic.com </span></td>
+                  </tr>
+                  <tr> 
+                    <td> <span class="glyphicon glyphicon-map-marker"></span></td>
+                    <td> <span class="glyphicon__text"> 32/6 Đường số 3, Cư Xá Bình Thới, Phường 8, Quận 11, TP.HCM</span></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <form action="" class="col-md-5 col-md-offset-1">
+              <div class="field first">
+                <input type="text" placeholder="Tên" class="message inf">
+              </div>
+              <div class="field">
+                <input type="text" placeholder="Email" class="message inf">
+              </div>
+              <div class="field">
+                <input type="text" placeholder="Tiêu đề" class="message inf">
+              </div>
+              <div class="field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Nội dung" class="message"></textarea>
+              </div>
+              <div class="field">
+                <div class="but-send">
+                  <button type="submit" class="send">GỬI</button>
+                </div>
+                <div class="share"><a href=""><img src="images/icon-facebook.png" alt="facebook"></a><a href=""><img src="images/g+.png" alt="g+"></a><a href=""><img src="images/you.png" alt="youtube"></a></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="bottom">
+        <div class="container">
+          <div class="row">
+            <ul>
+              <li><a href="#">HƯỚNG DẪN THANH TOÁN</a></li>
+              <li><a href="#">HƯỚNG DẪN CÁCH HỌC</a></li>
+              <li><a href="#">NGỮ PHÁP TOEIC</a></li>
+              <li><a href="#">600 TỪ VỰNG TOEIC</a></li>
+              <li><a href="#">THÔNG TIN VỀ KÌ THI TOEIC</a></li>
+              <li class="final"><a href="#">TUYỂN DỤNG</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="bottom2">
+        <div class="container">
+          <div class="row">
+            <div class="title_footer">BẢN QUYỀN CỦA CÔNG TY TNHH REAL EDUCATION GIẤY PHÉP ĐKKD SỐ: 0313469985</div>
+            <div class="dieukhoan">
+              <ul>
+                <li><a href="#">ĐIỀU KHOẢN SỬ DỤNG</a></li>
+                <li class="final"><a href="#">CHÍNH SÁCH BẢO MẬT</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="button-scrollTop"><span data-scroll-top class="icon icon-bt_up"></span></button>
+    </footer><a href="javascript:;" title="go to top" class="go-top" id="top"></a>
+    <script src="js/libs.js"></script>
+    <script src="js/script.js"></script>
+    <!--[if lte IE 9]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+    <noscript>JavaScript is off. Please enable to view full site.</noscript>
+  </body>
+</html>
