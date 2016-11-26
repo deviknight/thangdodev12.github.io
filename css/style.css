@@ -2221,6 +2221,11 @@ footer .dieukhoan ul li:last-child {
 .payment .table:last-child {
   padding-right: 7rem;
 }
+.payment .table .cost {
+  float: right;
+  font-size: 1.6rem;
+  font-family: "Roboto-Light";
+}
 .payment table {
   border-collapse: collapse;
   margin-top: 10rem;
@@ -2315,11 +2320,6 @@ footer .dieukhoan ul li:last-child {
 }
 .payment table p {
   font-family: "Roboto-Light";
-}
-.payment .cost {
-  float: left;
-  display: block;
-  margin-top: 7rem;
 }
 .payment .money {
   overflow: hidden;
@@ -2594,6 +2594,7 @@ footer .dieukhoan ul li:last-child {
   overflow: hidden;
 }
 .comment-user__type__item {
+  cursor: pointer;
   float: left;
   background-image: url(../images/icon-comment2.png);
   background-repeat: no-repeat;
@@ -2685,6 +2686,12 @@ footer .dieukhoan ul li:last-child {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 700px 150px;
+}
+.comment-user .comment-block .img-circle {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 100%;
+  border: 2px solid #ED4F54;
 }
 .comment-user .show-more {
   display: none;
