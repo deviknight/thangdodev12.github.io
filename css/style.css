@@ -873,6 +873,7 @@ header .header__menu__left > ul > li {
   margin-right: 2.3rem;
 }
 header .header__menu__left > ul > li > a {
+  display: block;
   color: #fff;
   font-family: "Roboto-Regular";
 }
@@ -931,6 +932,10 @@ header .header__menu__right .btn-menu {
 header .header__menu__right .btn-menu img:last-child {
   display: none;
 }
+header .header__menu__right .login-link:hover {
+  border-top: 3px solid #ED4F54;
+  padding: 3rem 0 3.3rem;
+}
 .header1 .content {
   padding-right: 10rem;
 }
@@ -975,14 +980,18 @@ header .header__menu__right .btn-menu img:last-child {
 .header1 .submenu > li:last-child {
   border-bottom: none;
 }
-.header1 .submenu > li:last-child > a {
+.header1 .submenu > li:last-child span {
   color: #ee4f54;
 }
 .header1 .submenu > li figure {
   float: left;
   width: 2rem;
 }
-.header1 .submenu > li > a {
+.header1 .submenu > li a {
+  display: block;
+  overflow: hidden;
+}
+.header1 .submenu > li span {
   float: left;
   color: #333;
   padding: 0.214rem 1.429rem;
@@ -990,7 +999,7 @@ header .header__menu__right .btn-menu img:last-child {
 .header1 .submenu > li:hover {
   background-color: #294171;
 }
-.header1 .submenu > li:hover > a {
+.header1 .submenu > li:hover span {
   color: #fff;
 }
 .header1 .list-menu--mobile {
@@ -1057,8 +1066,12 @@ header .header__menu__right .btn-menu img:last-child {
     color: #000;
   }
   header .header__menu__left > ul > li:hover {
+    background-color: #294171;
     border-top: none;
     padding: 1rem 0;
+  }
+  header .header__menu__left > ul > li:hover > a {
+    color: #fff;
   }
   header .header__menu__left > ul > li:last-child {
     border-bottom: none;
@@ -1115,6 +1128,9 @@ header .header__menu__right .btn-menu img:last-child {
     padding: 0;
     border-bottom: 2px solid #dcdcdc;
   }
+  .header1 .content .header__menu__left .list-menu .menu-in-li {
+    border-bottom: 1px solid #dcdcdc !important;
+  }
   .header1 .content .header__menu__left .user-block {
     display: block;
     padding: 0.3rem 1.5rem;
@@ -1123,6 +1139,10 @@ header .header__menu__right .btn-menu img:last-child {
   }
   .header1 .content .header__menu__left .user-block .name-user {
     color: #ccc;
+  }
+  .header1 .content .header__menu__left .user-block .icon-show {
+    -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
   }
   .header1 .content .header__menu__left .submenu {
     display: block;
@@ -1299,14 +1319,12 @@ footer .dieukhoan ul li:last-child {
   padding: 2rem 0;
   font-style: italic;
   font-size: 1.1rem;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 1rem;
 }
 .banner__login .notice-pass a {
   padding-left: 1rem;
   color: #ee4f54;
-}
-.banner__login figure {
-  text-align: center;
-  padding-bottom: 2rem;
 }
 .banner__login__form {
   margin-top: 0.5rem;
@@ -1506,8 +1524,9 @@ footer .dieukhoan ul li:last-child {
   color: #ee4f54;
 }
 .describe-user__block .type-basic__button:hover {
-  background-color: #ee4f54;
+  background-color: #00A6E4;
   color: #fff;
+  text-decoration: none;
 }
 .describe-user__block__method {
   position: relative;
@@ -1668,12 +1687,10 @@ footer .dieukhoan ul li:last-child {
 .describe-user .active .type-basic__button {
   color: #ee4f54;
 }
-.describe-user .active .type-basic__button:focus {
-  color: #ee4f54;
-  text-decoration: none;
-}
+.describe-user .active .type-basic__button:focus,
 .describe-user .active .type-basic__button:hover {
-  color: #fff;
+  text-decoration: none;
+  background-color: #294171;
 }
 .type-describe {
   display: none;
@@ -1909,6 +1926,12 @@ footer .dieukhoan ul li:last-child {
   background-color: #374568;
   color: #fff;
   text-decoration: none;
+}
+.other_benefits .content__block__item .btn-link .icon-bt_next {
+  font-size: 1.1rem;
+}
+.other_benefits .content__block__item .btn-link span:last-child {
+  margin-left: 0.5rem;
 }
 @media only screen and (min-width: 992px) {
   .other_benefits .content__block .sec-item {
@@ -2174,7 +2197,7 @@ footer .dieukhoan ul li:last-child {
   padding-top: 7rem;
 }
 .regist__step__label {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .regist__step__title {
   display: block;
@@ -2277,8 +2300,11 @@ footer .dieukhoan ul li:last-child {
   padding: 10px;
   width: 154px;
   float: right;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-family: "Roboto-Light";
+}
+.payment table tr td table tr td:last-child p.month_3 strong {
+  font-size: 2rem;
 }
 .payment table tr td table tr td:last-child p.month_6 {
   text-align: right;
@@ -2287,8 +2313,11 @@ footer .dieukhoan ul li:last-child {
   padding: 10px;
   width: 154px;
   float: right;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-family: "Roboto-Light";
+}
+.payment table tr td table tr td:last-child p.month_6 strong {
+  font-size: 2rem;
 }
 .payment table tr:nth-child(even) {
   background-color: #f2f2f2;
