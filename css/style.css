@@ -129,6 +129,9 @@
 .icon-db-bt-down {
   content: "\e907";
 }
+body {
+  font-family: "Roboto-Regular" !important;
+}
 .button-register {
   margin-top: 1.071rem;
   padding: 1.071rem;
@@ -957,6 +960,12 @@ header .header__menu__right .login-link:hover {
   margin-top: 1.4rem;
   margin-left: 1rem;
 }
+@media only screen and (min-width: 992px) {
+  .header1 .user-block .icon-show {
+    -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+  }
+}
 .header1 .header__menu__left .list-menu > li:first-child {
   display: none;
 }
@@ -1119,6 +1128,9 @@ header .header__menu__right .login-link:hover {
   }
   .header1 .content .header__menu__right .list-menu--mobile {
     margin-top: 2.5rem;
+  }
+  .header1 .content .header__menu__right .submenu {
+    display: none !important;
   }
   .header1 .content .header__menu__left {
     padding-left: 0;
