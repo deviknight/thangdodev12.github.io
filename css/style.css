@@ -2522,6 +2522,9 @@ footer .dieukhoan ul li:last-child {
   background-color: #fff;
   color: #ee4f54;
 }
+.payment .cost-pay2 div:first-child {
+  font-family: "Roboto-Light";
+}
 @media only screen and (max-width: 991px) {
   .payment {
     padding: 1.5rem;
