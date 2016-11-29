@@ -122,8 +122,10 @@
     e.preventDefault();
   	$('[data-dismiss]').trigger('click');
   	var block = $(this).attr('data-regist-popup');
-    $('html, body').animate({
-      scrollTop: $(block).offset().top - 50
+    setTimeout(function() {
+      $('html, body').animate({
+        scrollTop: $(block).offset().top - 75
+      }, 300);
     }, 300);
   });
 

@@ -142,8 +142,8 @@ body {
   color: #fff;
 }
 .button-scrollTop {
-  position: absolute;
-  top: -19%;
+  position: fixed;
+  top: 65%;
   right: 3%;
   width: 5rem;
   height: 5rem;
@@ -1173,9 +1173,6 @@ header .header__menu__right .login-link:hover {
   .header1 .content .list-menu--mobile {
     display: block;
   }
-}
-footer {
-  position: relative;
 }
 footer #bottom {
   text-align: center;
