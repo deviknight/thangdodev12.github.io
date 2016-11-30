@@ -349,7 +349,8 @@ img {
 #myModal4 .modal-header .items-big,
 #myModal3 .modal-header .items-big,
 #myModal2 .modal-header .items-big {
-  padding-left: 0;
+  float: left;
+  padding: 0;
 }
 #myModal8 .modal-body .items,
 #myModal7 .modal-body .items,
@@ -395,6 +396,17 @@ img {
   font-style: italic;
   font-size: 1.5rem;
   margin-top: 2rem;
+}
+#myModal8 .block-item,
+#myModal7 .block-item,
+#myModal6 .block-item,
+#myModal4 .block-item,
+#myModal3 .block-item,
+#myModal2 .block-item {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 4rem;
 }
 #myModal8 .items-big,
 #myModal7 .items-big,
